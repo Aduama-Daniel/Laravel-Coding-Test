@@ -11,7 +11,7 @@ The Laravel Todo API is a simple API for managing todos. It allows you to retrie
 
 To install the Laravel Todo API, follow these steps:
 
-```markdown
+
 ```bash
 # Install dependencies
 composer install
@@ -82,7 +82,7 @@ Some endpoints in the API require user authentication using Laravel Sanctum. Her
       "completed": true,
        "description":"What is already done"
     }
-    // ... other todos
+   
   ]
   ```
 
@@ -190,7 +190,7 @@ curl -X GET http://127.0.0.1:8000/api/todos
     "title": "Todo 2",
     "completed": true
   }
-  // ... other todos
+  
 ]
 ```
 
